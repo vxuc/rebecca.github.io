@@ -79,7 +79,7 @@ body {
   font-family: "Comic Neue", cursive;
   color: var(--txt-color);
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.55rem;
   margin-top: -1.5rem;
 }
 .heart {

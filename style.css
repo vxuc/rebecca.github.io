@@ -1,7 +1,5 @@
-@font-face {
-  font-family: comic;
-  src: url("COMIC.TTF");
-}
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+
 :root {
   --primary: #fff;
   --bg-color: #fae1dd;
@@ -78,10 +76,10 @@ body {
   transition-delay: 0.9s;
 }
 .envelope > .letter > .text {
-  font-family: comic;
+  font-family: "Comic Neue", cursive;
   color: var(--txt-color);
   text-align: center;
-  font-size: 10px;
+  font-size: 0.7rem;
   margin-top: -1.5rem;
 }
 .heart {

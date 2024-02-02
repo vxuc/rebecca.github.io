@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <p style="text-align: left">Dear Rebecca,</p>
+              <p>
+                From the first time I said<br />
+                the words "I love you",<br />I meant them. I still do.<br /><br />You
+                don't have to wonder<br />
+                if I will change my mind<br />
+                or stop loving you.<br />
+                I won't.<br />
+              </p>
+              <b style="font-size: 12px">WILL YOU BE MY<br /></b>
+              <b style="font-size: 20px; color: #e47a7a">♥VALENTINE?♥</b>
+              <p style="text-align: right">- Jordan</p>
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <script>
+      const envelope = document.querySelector(".container");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>

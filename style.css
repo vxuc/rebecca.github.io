@@ -1,3 +1,7 @@
+@font-face {
+  font-family: comic;
+  src: url("COMIC.TTF");
+}
 :root {
   --primary: #fff;
   --bg-color: #fae1dd;
@@ -74,7 +78,7 @@ body {
   transition-delay: 0.9s;
 }
 .envelope > .letter > .text {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: comic;
   color: var(--txt-color);
   text-align: center;
   font-size: 10px;

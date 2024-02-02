@@ -78,6 +78,7 @@ body {
   color: var(--txt-color);
   text-align: center;
   font-size: 10px;
+  margin-top: -1.5rem;
 }
 .heart {
   position: absolute;

@@ -18,7 +18,7 @@ body {
   justify-content: center;
 }
 .container {
-  height: 110vh;
+  height: 125vh;
   display: grid;
   place-items: center;
   animation: up 2.5s linear infinite;
